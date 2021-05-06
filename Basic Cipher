@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 
-public class BasicCipher {
+public class Main {
     static char[] ascii = (new String(IntStream.rangeClosed(32, 126).toArray(), 0, 95)).toCharArray();
 
     public static void main(String[] args){
